@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion Trader | Premium Access</title>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <style>
+            /* Global Styles */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+            color: #fff;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: truncated 6482bytes...
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Splash Screen -->
+    <div class="splash-screen" id="splashScreen">
+        <div class="splash-content">
+            <div class="logo-container">
+                <div class="logo-3d">
+                    <i class="fas fa-crown"></i>
+                </div>
+            </div>
+            <h1 class="app-title">FUSION TRADER</h1>
+            <p class="app-subtitle">PREMIUM TRADING PLATFORM</p>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar" style="width: 100%;"></div>
+            </div>
+            <p class="loading-text" id="loadingText">Launching Application...</p>
+        </div>
+    </div>
+
+    <!-- Device ID Page -->
+    <div class="device-page" id="devicePage">
+        <div class="device-container">
+            <div class="premium-icon">
+                <i class="fas fa-id-card"></i>
+            </div>
+            <h2 class="device-title">Device Verification</h2>
+            <p class="device-text">Your unique device ID is required for secure access to Fusion Trader Premium.</p>
+
+            <div class="device-id-container">
+                <span>Device ID:</span>
+                <span id="deviceId">FT5622</span>
+            </div>
+
+            <button class="copy-btn" onclick="copyDeviceId()">
+        <i class="fas fa-copy"></i> Copy Device ID
+      </button>
+
+            <div class="status-indicator" id="statusIndicator" style="color: rgb(255, 165, 2); background: rgba(255, 165, 2, 0.1);"><i class="fas fa-sync-alt fa-spin"></i> Waiting for verification...</div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // Firebase config
+        const firebaseConfig = {
+                apiKey: "AIzaSyBg-x3H7Z4SqCMN9k7b2GOQahwO3oMqtBs",
+                authDomain: "rbbhaitop.firebaseapp.com",
+                databaseURL: "https://rbbhaitop-default-rtdb.firebaseio.com",
+                projectId: "rbbhaitop",
+                storageBucket: "rbbhaitop.appspot.com",
+                messagingSenderId: "859367383617",
+                appId: "1:859367383617:web:d4eff12d22aefebb9bdcc0"
+                truncated 5549 bytes...
+    </script>
+</body>
+</html>
